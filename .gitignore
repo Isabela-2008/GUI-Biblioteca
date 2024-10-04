@@ -1,0 +1,15 @@
+
+### .gitignore
+
+```plaintext
+# Ignorar arquivos de compilação do Python
+__pycache__/
+*.py[cod]
+
+# Ignorar arquivos de configuração do ambiente virtual
+venv/
+env/
+*.egg-info/
+
+# Ignorar arquivos do banco de dados SQLite
+*.db
