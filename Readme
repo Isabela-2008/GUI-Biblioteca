@@ -1,0 +1,43 @@
+Enunciado do Projeto
+Sistema de Gestão de Livros
+
+O projeto consiste em desenvolver um Sistema de Gestão de Livros utilizando Python, Tkinter e SQLite. O sistema permitirá o cadastro, exclusão e visualização de autores, livros e empréstimos. As funcionalidades principais incluem:
+
+Cadastro de Autores: Adicionar novos autores ao sistema.
+Exclusão de Autores: Remover autores, desde que não possuam livros associados.
+Visualização de Autores: Listar todos os autores cadastrados.
+Cadastro de Livros: Adicionar novos livros, vinculando-os a seus respectivos autores.
+Visualização de Livros: Listar todos os livros cadastrados, exibindo o título e o autor.
+Registro de Empréstimos: Registrar empréstimos de livros, associando-os a usuários e registrando a data do empréstimo.
+Visualização de Empréstimos: Listar todos os empréstimos realizados, exibindo o título do livro, o nome do usuário e a data do empréstimo.
+
+# Sistema de Gestão de Livros
+
+Este projeto consiste em um sistema de gestão de livros desenvolvido em Python, utilizando a biblioteca Tkinter para a interface gráfica e SQLite para o armazenamento de dados. O sistema permite gerenciar autores, livros e empréstimos de forma simples e intuitiva.
+
+## Funcionalidades
+
+- **Cadastro de Autores**: Permite adicionar novos autores ao banco de dados.
+- **Exclusão de Autores**: Possibilita a remoção de autores, garantindo que não existam livros associados.
+- **Visualização de Autores**: Lista todos os autores cadastrados.
+- **Cadastro de Livros**: Permite adicionar livros vinculados aos autores.
+- **Visualização de Livros**: Exibe todos os livros cadastrados, junto com seus autores.
+- **Registro de Empréstimos**: Permite registrar empréstimos de livros a usuários.
+- **Visualização de Empréstimos**: Lista todos os empréstimos realizados.
+
+## Tecnologias Utilizadas
+
+- **Python**: Linguagem de programação principal.
+- **Tkinter**: Biblioteca para construção da interface gráfica.
+- **SQLite**: Sistema de gerenciamento de banco de dados utilizado para armazenar os dados.
+
+## Pré-requisitos
+
+Antes de executar o projeto, certifique-se de ter o Python instalado em sua máquina. Você pode baixar o Python [aqui](https://www.python.org/downloads/).
+
+## Como Executar
+
+1. Clone este repositório para sua máquina local:
+   ```bash
+   git clone https://github.com/seuusuario/nome-do-repositorio.git
+   cd nome-do-repositorio
